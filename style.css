@@ -257,11 +257,17 @@ hr.light-100 {
     font-size: 160%;
   }
   
-    .social a {
-     font-size: 2em;
-     padding: .7rem;
-   }
+  .social a {
+    font-size: 2em;
+    padding: .7rem;
+  }
+
+  figure {
+    display: none;
+  }
 }
+
+
 
 
 /*---Firefox Bug Fix --*/
@@ -327,7 +333,6 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
 
 
 
