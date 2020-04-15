@@ -199,10 +199,8 @@ hr.light-100 {
    font-size: 4em;
    padding: 2rem;
  }
- figure {
-  display: none;
- }
 }
+
 @media (max-width: 768px) {
   .carousel-caption {
     top: 45%;
@@ -229,10 +227,6 @@ hr.light-100 {
   .social a {
    font-size: 2.5em;
    padding: 1.2rem;
- }
-
-  figure {
-  display: none;
  }
 }
 
