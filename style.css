@@ -296,7 +296,7 @@ figure {
 }
 #fixed {
   background-image: url('img/elk-hillside-background.jpg');
-  position: fixed;
+  position: relative;
   display: block;
   top: 0;
   left: 0;
@@ -308,6 +308,7 @@ figure {
           transform: translateZ(0);
   will-change: transform;
   opacity: 50%;
+  z-index: -1;
 }
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
