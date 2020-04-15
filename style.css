@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
 
 html, body {
   height: 100%;
@@ -55,6 +56,10 @@ html, body {
 .btn-primary:hover {
   background-color: #243fd3;
   border: 1px solid #243fd3;
+}
+
+.display-2 {
+  font-family: 'Wallpoet', cursive;
 }
 
 .jumbotron {
@@ -194,10 +199,23 @@ hr.light-100 {
 
 
 /*---Media Queries --*/
+@media (max-width: 1200px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+  figure {
+   display: none;
+  }
+ }
+
 @media (max-width: 992px) {
  .social a {
    font-size: 4em;
    padding: 2rem;
+ }
+ figure {
+  display: none;
  }
 }
 
@@ -215,6 +233,7 @@ hr.light-100 {
     font-weight: 400;
     padding-bottom: .2rem;
   }
+  
   .carousel-caption .btn {
   font-size: 95%;
   padding: 8px 14px;
@@ -227,6 +246,10 @@ hr.light-100 {
   .social a {
    font-size: 2.5em;
    padding: 1.2rem;
+ }
+  
+ figure {
+  display: none;
  }
 }
 
