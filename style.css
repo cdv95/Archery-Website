@@ -199,6 +199,9 @@ hr.light-100 {
    font-size: 4em;
    padding: 2rem;
  }
+ figure {
+  display: none;
+ }
 }
 @media (max-width: 768px) {
   .carousel-caption {
@@ -214,22 +217,24 @@ hr.light-100 {
     font-weight: 400;
     padding-bottom: .2rem;
   }
-}
-.carousel-caption .btn {
+  .carousel-caption .btn {
   font-size: 95%;
   padding: 8px 14px;
-}
+ } 
 
   .display-4 {
   font-size: 200%;
-
-}
+ }
 
   .social a {
    font-size: 2.5em;
    padding: 1.2rem;
  }
 
+  figure {
+  display: none;
+ }
+}
 
 @media (max-width: 576px) {
   .carousel-caption {
@@ -296,7 +301,7 @@ figure {
 }
 #fixed {
   background-image: url('img/elk-hillside-background.jpg');
-  position: relative;
+  position: fixed;
   display: block;
   top: 0;
   left: 0;
@@ -308,7 +313,6 @@ figure {
           transform: translateZ(0);
   will-change: transform;
   opacity: 50%;
-  z-index: -1;
 }
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
